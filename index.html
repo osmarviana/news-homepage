@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News - Notícias</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variable.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header class="header" id="header">
+          <img src="./src/img/logo.svg" alt="logo" />
+          <nav class="menu" id="menu">
+            <ul class="menu-nav" id="menu-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+          <div class="menu-bar" id="menu-bar"></div>
+          <div class="menu-close" id="menu-close"></div>
+        </header>
+        <div class="section-aside-container">
+          <section class="section">
+            <picture>
+              <source
+                srcset="./src/img/image-web-3-mobile.jpg"
+                media="(max-width: 768px)"
+              />
+              <img
+                src="./src/img/image-web-3-desktop.jpg"
+                alt="banner principal"
+              />
+            </picture>
+            <div class="box-content">
+              <div class="news-title">
+                <h1 class="title">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="news-details">
+                <p class="news-previws">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a class="read-more" href="#">Read more</a>
+              </div>
+            </div>
+          </section>
+          <aside class="aside">
+            <h2 class="others-news-title">New</h2>
+            <div class="others-news">
+              <a class="others-titles" href="#">Hydrogen VS Electric Cars</a>
+              <p class="others-previws">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <hr />
+            <div class="others-news">
+              <a class="others-titles" href="#">The Downsides of AI Artistry</a>
+              <p class="others-previws">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <hr />
+            <div class="others-news">
+              <a class="others-titles" href="#">Is VC Funding Drying Up?</a>
+              <p class="others-previws">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </aside>
+        </div>
+        <footer class="footer">
+          <div class="more-news">
+            <div class="image">
+              <img src="./src/img/image-retro-pcs.jpg" alt="imagem pc retro" />
+            </div>
+            <div class="more-news-previws">
+              <h4 class="news-order">01</h4>
+              <a class="footer-news-title" href="#">Reviving Retro PCs</a>
+              <p class="footer-news-previws">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <div class="more-news">
+            <div class="image">
+              <img src="./src/img/image-top-laptops.jpg" alt="imagem teclado" />
+            </div>
+            <div class="more-news-previws">
+              <h4 class="news-order">02</h4>
+              <a class="footer-news-title" href="#">Top 10 Laptops of 2022</a>
+              <p class="footer-news-previws">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+          <div class="more-news">
+            <div class="image">
+              <img
+                src="./src/img/image-gaming-growth.jpg"
+                alt="imagem controle game"
+              />
+            </div>
+            <div class="more-news-previws">
+              <h4 class="news-order">03</h4>
+              <a class="footer-news-title" href="#">The Growth of Gaming</a>
+              <p class="footer-news-previws">
+                How the pandemic has sparked fresh opportunities
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script src="./src/js/menu.js"></script>
+  </body>
+</html>
